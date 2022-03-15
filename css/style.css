@@ -7,15 +7,16 @@
 /* Custom properties: update these for personal design */
 
 :root{
-    --ff-primary: "Source Sans Pro", sans-serif;
-    --ff-secondary: "Source Code Pro", monospace;
+    --ff-primary: "Crimson Pro", serif;
+    --ff-secondary: "Philosopher", sans-serif;
 
-    --fw-reg: 300;
+    --fw-reg: 400;
     --fw-bold: 900;
 
-    --clr-light: #fff;
+    --clr-light-background: #e6eaea;
+    --clr-light-font: #FFFFFF;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #93001a;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -44,7 +45,7 @@ html{
 }
 
 body{
-    background: var(--clr-light);
+    background: var(--clr-light-background);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -78,13 +79,13 @@ strong{
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
-    color:var(--clr-dark);
+    color: var(--clr-light-font);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-reg);
     transition: transform 299ms ease-in-out;
 }
 
@@ -135,15 +136,16 @@ h3{
 .section__subtitle--intro,
 .section__subtitle--about{
     background: var(--clr-accent);
-    padding: 1.25em;
+    color: var(--clr-light-font);
+    padding: 2em;
     font-family: var(--ff-secondary);
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .section__subtitle--work{
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 
@@ -163,7 +165,7 @@ header{
 .nav{
     position: fixed;
     background: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-light-font);
     top: 0;
     bottom: 0;
     left: 0;
@@ -315,12 +317,13 @@ header{
     background-image: url(../img/port\ desk\ one.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    color: var(--clr-light);
+    color: var(--clr-light-font);
     text-align: center;
 }
 
 .section__title--services{
-    color: var(--clr-accent);
+    color: var(--clr-light-font);
+    text-shadow: 2px 2px 4px var(--clr-accent);
     position: relative;
 }
 
@@ -330,7 +333,7 @@ header{
     width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-light);
+    background: var(--clr-light-font);
     opacity: 0.25;
 }
 
@@ -341,6 +344,10 @@ header{
 .service{
     max-width: 500px;
     margin: 0 auto;
+}
+
+.service-subtitle{
+    color: var(--clr-accent);
 }
 
 @media(min-width: 800px){
@@ -403,8 +410,12 @@ header{
 
 .my-work{
     background-color: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-light-font);
     text-align: center;
+}
+
+.section__title--work{
+    text-shadow: 2px 2px 4px var(--clr-accent);
 }
 
 .portfolio{

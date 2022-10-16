@@ -577,9 +577,41 @@ header{
 }
 
 .portfolio-item-individual-link{
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        var(--clr-dark),
+        var(--clr-dark) 50%,
+        var(--clr-accent) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-size: var(--fs-h3);
+}
+
+.portfolio-item-individual-link:before {
+    content: '';
+    background: var(--clr-accent);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.portfolio-item-individual-link:hover {
+    background-position: 0;
+}
+  
+.portfolio-item-individual-link:hover::before {
+    width:100%;
 }
 
 .intro-work-example__img{

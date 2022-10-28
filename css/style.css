@@ -471,8 +471,7 @@ header{
     /* text-shadow: 1px 1px 0px var(--clr-light-font); */
     text-shadow: 
     1px 0px 1px var(--clr-light-font), 0px 1px 1px var(--clr-light-background), 
-    2px 1px 1px var(--clr-light-font), 1px 2px 1px var(--clr-light-background),
-    3px 2px 1px var(--clr-light-font), 2px 3px 1px var(--clr-light-background);
+    2px 1px 1px var(--clr-light-font), 1px 2px 1px var(--clr-light-background);
 }
 
 .portfolio{

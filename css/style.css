@@ -615,8 +615,17 @@ header{
     width:100%;
 }
 
-.intro-work-example__img{
+.intro-work-example__img, .portfolio-item-img{
     box-shadow: var(--bs);
+}
+
+.portfolio-item-row{
+    display: flex;
+}
+
+.portfolio-item-column{
+    flex: 50%;
+    padding: 5px;
 }
 
 @media (min-width: 600px){

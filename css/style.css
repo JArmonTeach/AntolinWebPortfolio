@@ -615,7 +615,17 @@ header{
     width:100%;
 }
 
-.intro-work-example__img, .portfolio-item-img{
+.intro-work-example__img, .portfolio-item-img-double, .portfolio-item-img-triple{
+    box-shadow: var(--bs);
+}
+
+.portfolio-item-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-item-img{
+    width: 100%;
     box-shadow: var(--bs);
 }
 

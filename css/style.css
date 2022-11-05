@@ -628,6 +628,11 @@ header{
     padding: 5px;
 }
 
+.portfolio-item-column-triple{
+    flex: 33.33%;
+    padding: 5px;
+}
+
 @media (min-width: 600px){
     .intro{
         display: grid;

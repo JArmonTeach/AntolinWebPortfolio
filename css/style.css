@@ -584,10 +584,11 @@ header{
         var(--clr-dark) 50%,
         var(--clr-accent) 50%
     );
+
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
-    padding: 5px 0;
+    padding: 0px 0;
     position: relative;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -612,7 +613,7 @@ header{
 }
   
 .portfolio-item-individual-link:hover::before {
-    width:100%;
+    width: 100%;
 }
 
 .intro-work-example__img, .portfolio-item-img-double, .portfolio-item-img-triple{

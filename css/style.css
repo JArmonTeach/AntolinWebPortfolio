@@ -623,7 +623,7 @@ header{
     display: flex;
 }
 
-.portfolio-item-column{
+.portfolio-item-column-double{
     flex: 50%;
     padding: 5px;
 }

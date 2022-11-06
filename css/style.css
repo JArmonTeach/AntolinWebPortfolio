@@ -393,6 +393,8 @@ header{
 
 .service-subtitle{
     color: var(--clr-accent);
+    text-shadow:
+    1px 0px 1px var(--clr-light-font), 0px 1px 1px var(--clr-light-background);
 }
 
 @media(min-width: 800px){

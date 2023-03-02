@@ -5,7 +5,7 @@ Static pages web portfolio using HTML, CSS and JS
 
 ## Table of Contents
 
-## Instalation
+## Installation
 
 ## Usage
 

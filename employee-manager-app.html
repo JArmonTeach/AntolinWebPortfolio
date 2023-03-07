@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Antolin Portfolio Website</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!--can update these with own fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Philosopher&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/ba1478cd70.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/monogram.png" alt="Armon initials monogram">
+                </a>
+            </div>
+
+            <button class="nav-toggle" arai-label="toggle navigation">
+                <span class="hamburger">
+
+                </span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Personal Project<strong>Employee Manager Application</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">Full Stack Application</p>
+            <img src="img/empManagerFull.PNG" alt="landing page for MASS Clinic App" class="intro-work-example__img">
+        </section>
+
+
+
+        <!--Main Info-->
+        <div class="portfolio-item-individual">            
+            <h3>Client</h3>
+                <p>This was a personal project.</p>
+
+            <h3>Task</h3>
+                <ul>
+                    <li>Web Application Development</li>
+                    <li>Team Management</li>
+                </ul>
+
+            <h3>Challenge</h3>
+                <p>TODO</p>
+                
+            <h3>Solution Elements</h3>
+                <p>TODO</p>
+
+                <div class="portfolio-item-row">
+                    <div class="portfolio-item-column-double">
+                        <img src="img/massClinicAdminSignIn.png" alt="" class="portfolio-item-img-double">
+                    </div>
+
+                    <div class="portfolio-item-column-double">
+                        <img src="img/massClinicAdminUpload.png" alt="" class="portfolio-item-img-double">
+                    </div>
+                </div>
+                
+                <p>TODO</p>
+
+                <img src="img/massClinicAppDash.png" alt="" class="portfolio-item-img">
+
+                <p>This Spring Boot tutorial covers Spring Boot and MySQL using Spring Data JPA. This course also dives into defining and creating a spring boot API, exposing API Endpoints Over HTTP, and  handling HTTP Requests through API Endpoints. It covers testing API Endpoints (using an HTTP client and the browser DevTools). This course also dives into Angular components, Angular Forms, Angular Routing, and Angular Services. It goes into Angular HTTP Communication.</p>
+
+            <h3>Tools</h3> <!--lang, stack, etc.-->
+                <ul>
+                    <li>AngularJS</li>
+                    <li>Java</li>
+                    <li>Springboot Framework</li>
+                    <li>MySQL</li>
+                </ul>
+
+
+            <h3>Click <a href="#" target="_blank" class="portfolio-item-individual-link">here</a> to access the repository</h3><!--or demo or website-->
+            
+        </div>
+
+
+        
+        <!--Footer-->
+        <footer class="footer">
+            <a href="malito:jasapro30@gmail.com" class="footer__link">jasapro30@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/JArmonTeach" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/armon-antolin" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/jasantolin/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

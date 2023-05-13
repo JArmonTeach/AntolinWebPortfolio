@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Wedding Website Project</title>
+        <title>ECommerce Dashboard App Project</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
@@ -48,12 +48,14 @@
         <!--Introduction-->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Jan and Meahway's<strong>Wedding Website</strong>
+                Personal Project<strong>Employee Manager Application</strong>
             </h1>
 
-            <p class="section__subtitle section__subtitle--intro">Web Design Example</p>
-            <img src="img/weddingWebsite.png" alt="landing page for wedding website" class="intro-work-example__img">
+            <p class="section__subtitle section__subtitle--intro">Full Stack Application</p>
+            <img src="img/empManagerFull.PNG" alt="landing page for MASS Clinic App" class="intro-work-example__img">
         </section>
+
+
 
         <!--Main Info-->
         <div class="portfolio-item-individual">            
@@ -62,49 +64,58 @@
 
             <h3>Task</h3>
                 <ul>
-                    <li>Website</li>
-                    <li>Event Promotion</li>
-                    <li>UI/UX Design</li>
+                    <li>Web Application Development</li>
+                    <li>Team Management</li>
                 </ul>
 
             <h3>Challenge</h3>
-                <p>As my initial personal project&#8212;excluding this portfolio website&#8212;the main concerns were organizing the HTML elements for readability and elegant design and creating an RSVP frontend that is straightforward for anyone to fill out. The sketches below show the beginning of the designing process.</p>
+                <p>I wanted to create a fullstack app that met the requirements that I have commonly seen in job descriptions for software developers in Java. There were certain criteria that I wanted to cover such as CRUD opperations, a frontend JS framework, a backend JAVA framework, and using an API.</p>
+
+                <p>After looking at serveral follow along tutorials, the Spring Boot Full Stack with Angular by Amigoscode covered everything I was looking for in a starter project.</p>
+                
+            <h3>Solution Elements</h3>
+                <p>For the backend, the project covered Spring Boot and MySQL using the Spring Data JPA. It also showed how to define and create a spring boot API, exposing the API endpoints over HTTP, and how to handle HTTP requests through those endpoints. The API endpoints were also tested using an HTTP client and the browser DevTools.</p>
+
+                <p>For the frontend, the project also used Angular components, forms, routing and services. The project has Angular HTTP communciation as well.</p>
+
+                <p>When openning the application, the saved employees will already show on the dashboard if they were present from a previous use; if there are no employees in the database, then a prompt that shows "no employees" will show. So, the dashboard does not just reset after every start of the application.</p>
+
+                <p>A user can add and save a new user as seen below.</p>
 
                 <div class="portfolio-item-row">
                     <div class="portfolio-item-column-double">
-                        <img src="img/weddingWebsiteSketch1.png" alt="" class="portfolio-item-img-double">
+                        <img src="img/empManAddOpen.gif" alt="" class="portfolio-item-img-double">
                     </div>
 
                     <div class="portfolio-item-column-double">
-                        <img src="img/weddingWebsiteSketch2.png" alt="" class="portfolio-item-img-double">
+                        <img src="img/empManAddSave.gif" alt="" class="portfolio-item-img-double">
                     </div>
                 </div>
-                
-                <p>As seen in the sketches, I organized the home page to open on a main annoucement, and three columns for the remaining detail elements. During the early sketches, I also chose three specific fonts that were readable and appropriate for the wedding material. At this point, I also settled with two main color accents for the website so that it doesn't appear cluttered or distracting.</p>
 
-            <h3>Solution Elements</h3>
-                <p>As seen in the image below, the landing page of the website is on a main announcment picture. The header has navigation options to go to the different parts of the home page and a button to go to the RSVP page. As the user scrolls down, sections for the couple's story, wedding ceremony and reception details, wedding party and registry will appear. The wedding reception has a button to go to the RSVP page as well while the wedding party section have clickable links that head to the bridesmaids or groomsmen pages respectively.</p>
-                
-                <div class="portfolio-item-img-container">
-                    <img src="img/weddingHomePageScroll.gif" alt="" class="portfolio-item-img">
-                </div>
+                <p>The user can also open an employee card to edit their information.</p>
 
-                <p>The groomsmen and bridesmaids pages all have cards that include a picture and short text description area of that respective person and have buttons to return to the home page. The registry section of the home page will lead to the various website that are part of the wedding registry.</p>
+                <img src="img/empManEdit.gif" alt="" class="portfolio-item-img">
 
-                <div class="portfolio-item-img-container">
-                    <img src="img/weddingRSVPdemo.gif" alt="" class="portfolio-item-img">
-                </div>
+                <p>The application also has a searching feature as demonstrted below using different information.</p>
 
-                <p>The image above shows the RSVP form that users can fill out. It will prompt the user to enter a first and last name, email, phone number, and attending status. Based on their response, meal options will appear and the ability to add another guest with their party will also be available along with their meal choices.</p>
+                <img src="img/empManSearch.gif" alt="" class="portfolio-item-img">
+
+                <p>Deleting an employee card is also an available operation with a second warning window.</p>
+
+                <img src="img/empManDelete.gif" alt="" class="portfolio-item-img">
+
+                <p>As portrayed, all CRUD operations are available on this application.</p>
 
             <h3>Tools</h3> <!--lang, stack, etc.-->
                 <ul>
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>Vanilla JavaScript</li>
+                    <li>AngularJS</li>
+                    <li>Java</li>
+                    <li>Springboot Framework</li>
+                    <li>MySQL</li>
                 </ul>
 
-            <h3>Click <a href="https://github.com/JArmonTeach/WeddingRSVP" target="_blank" class="portfolio-item-individual-link">here</a> to access the repository</h3><!--or demo or website-->
+
+            <h3>Click <a href="https://github.com/JArmonTeach/employeeManager" target="_blank" class="portfolio-item-individual-link">here</a> to access the front end repository and <a href="https://github.com/JArmonTeach/employeeManagerApp" target="_blank" class="portfolio-item-individual-link">here</a> for the backend.</h3><!--or demo or website-->
             
         </div>
 

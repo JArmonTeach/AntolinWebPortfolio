@@ -73,10 +73,24 @@
             <h3>Challenge</h3>
                 <p>I wanted to create a fullstack app that met the requirements that I have commonly seen in job descriptions for software developers using the MERN stack. The criteria I wanted to cover was data vizualization using a pre-existing libraries, API calls, a ReactJS frontend, a JS backend framework and a functional database.</p>
 
-                <p>After looking at serveral follow along tutorials, the Build a MERN React Admin Dashboard by EdRoh covered everything I was looking for in this project.</p>
+                <p>After looking at several sources, the Build a MERN React Admin Dashboard by EdRoh covered everything I was looking for in this project.</p>
                 
             <h3>Solution Elements</h3>
-                <p>TODO</p>
+                <p>For the backend, the project uses NodeJS as its runtime environment, ExpressJS as its framework, MongoDB as the cloud database, and Mongoose to manage MongoDB.</p>
+
+                <p>The data that was needed for this project was organized into different tables as seen in the model below.</p>
+
+                <img src="img/eCommFullstackAdminDataModel.jpg" alt="" class="portfolio-item-img">
+
+                <p>As seen in the model, the data is broken into 6 different collections. The data for each collection is loaded manually using Mongoose into the project one time at a time to avoid duplicates.</p>
+
+                <p>For the frontend, ReactJS was the framework. Material UI was used for styling while Material UI datagrid provide the tables. The NIVO library was also used for the charts. Redux toolkit was used for the state management and RTK Query was used for the API calls.</p>
+
+                <p>The landing page of the application is the main dashboard that contains the overview of the data in miniature cards, graphs and a table.</p>
+
+                <img src="img/eCommMainDashboard.PNG" alt="" class="portfolio-item-img">
+
+                
 
                 <div class="portfolio-item-row">
                     <div class="portfolio-item-column-double">
@@ -90,15 +104,27 @@
 
                 <p>TODO</p>
 
-                <img src="img/empManEdit.gif" alt="" class="portfolio-item-img">
-
             <h3>Tools</h3> <!--lang, stack, etc.-->
                 <ul>
-                    <li>TODO</li>
+                    <h4>MERN Stack</h4>
+
+                    <h5>Backend</h5>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+
+                    <h5>Frontend</h5>
+                    <li>ReactJS</li>
+                    <li>Material UI</li>
+                    <li>Material UI datagrid</li>
+                    <li>NIVO</li>
+                    <li>Redux toolkit</li>
+                    <li>RTK Query</li>
                 </ul>
 
 
-            <h3>Click <a href="https://github.com/JArmonTeach/employeeManager" target="_blank" class="portfolio-item-individual-link">here</a> to access the front end repository and <a href="https://github.com/JArmonTeach/employeeManagerApp" target="_blank" class="portfolio-item-individual-link">here</a> for the backend.</h3><!--or demo or website-->
+            <h3>Click <a href="https://github.com/JArmonTeach/ecommerce-admin-dashboard" target="_blank" class="portfolio-item-individual-link">here</a> to access the repository.</h3><!--or demo or website-->
             
         </div>
 

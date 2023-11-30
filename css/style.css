@@ -13,10 +13,11 @@
     --fw-reg: 400;
     --fw-bold: 900;
 
-    --clr-light-background: #e6eaea;
-    --clr-light-font: #FFFFFF;
-    --clr-dark: #303030;
-    --clr-accent: #93001a;
+    --clr-light-background: #FFEDDA;
+    --clr-light-font: #F8F6F6;
+    --clr-dark: #080f22;
+    --clr-accent: #9b1111;
+    --clr-dark-shadow: #0e0e0e;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -394,7 +395,7 @@ header{
 .service-subtitle{
     color: var(--clr-accent);
     text-shadow:
-    1px 0px 1px var(--clr-light-font), 0px 1px 1px var(--clr-light-background);
+    3px 3px 2px var(--clr-dark-shadow);
 }
 
 @media(min-width: 800px){
@@ -510,7 +511,7 @@ header{
 /*Footer*/
 
 .footer{
-    background: #111;
+    background: var(--clr-dark-shadow);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;

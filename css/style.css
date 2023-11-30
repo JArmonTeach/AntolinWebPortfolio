@@ -398,6 +398,13 @@ header{
     3px 3px 2px var(--clr-dark-shadow);
 }
 
+.service-icon{
+    max-height: 3em;
+    max-width: 3em;
+    margin: 1em auto;
+    filter: brightness(0) invert(1);
+}
+
 @media(min-width: 800px){
     .services{
         display: flex;

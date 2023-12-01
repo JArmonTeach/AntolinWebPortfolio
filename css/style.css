@@ -411,6 +411,19 @@ header{
     padding: 0;
 }
 
+.service-list-item-break{
+    content: '';
+    width: 5em;
+    height: 1px;
+    margin:2em auto;
+    background: var(--clr-light-font);
+    opacity: 0.25;
+}
+
+.service-list-item-subheading{
+    font-style: italic, bold;
+}
+
 @media(min-width: 800px){
     .services{
         display: flex;

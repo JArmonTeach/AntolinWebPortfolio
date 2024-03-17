@@ -1,0 +1,51 @@
+/*Noto Font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* Custom properties: update these for personal design */
+:root {
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+   
+    --clr-bg: #241f19;
+    --clr-secondary-bg: #87816e;
+    --clr-accent: #e7d7c9;
+    --clr-main: #be8f6e;
+
+    --clr-text-light:#ede9e3;
+    --clr-text-dark: #777;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
+        0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+}
+
+html {
+    font-size: var(--fw-reg);
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--clr-bg);
+    color: var(--clr-text-light);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}

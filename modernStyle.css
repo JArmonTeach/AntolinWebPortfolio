@@ -59,7 +59,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--clr-bg);
+    background: var(--clr-secondary-bg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,3 +93,23 @@ section {
 
 
 /* HOME SECTION */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content h1 {
+    font-size: var(--fs-h1);
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: var(--fs-h2);
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}

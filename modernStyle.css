@@ -62,3 +62,10 @@ section {
     align-items: center;
     z-index: 100;
 }
+
+.logo{
+    font-size: var(--fs-h2);
+    color: var(--clr-text-light);
+    font-weight: 700;
+    cursor: default;
+}

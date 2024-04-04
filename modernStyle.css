@@ -69,3 +69,21 @@ section {
     font-weight: 700;
     cursor: default;
 }
+
+.navbar a {
+    font-size: var(--fs-body);
+    color: var(--clr-text-light);
+    margin-left: 4rem;
+    font-weight: 700;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--clr-text-light);
+}
+
+#menu-icon{
+    font-size: var(--fs-h1);
+    color: var(--clr-text-light);
+    display: none;
+}

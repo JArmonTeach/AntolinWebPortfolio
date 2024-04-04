@@ -163,3 +163,21 @@ span{
     color: var(--clr-accent);
     box-shadow: var(--bs);
 }
+
+.resume-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--clr-main);
+    border-radius: 4rem;
+    box-shadow: var(--bs);
+    font-size: var(--fs-h3);
+    color: var(--clr-bg);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.resume-btn:hover{
+    background: var(--clr-secondary-bg);
+    color: var(--clr-accent)
+}

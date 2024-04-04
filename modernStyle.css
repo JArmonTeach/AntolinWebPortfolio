@@ -50,6 +50,9 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+
+/* HEADER SECTION */
+
 .header{
     position: fixed;
     top: 0;
@@ -87,3 +90,6 @@ section {
     color: var(--clr-text-light);
     display: none;
 }
+
+
+/* HOME SECTION */

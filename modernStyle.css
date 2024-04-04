@@ -118,3 +118,26 @@ section {
 span{
     color: var(--clr-main);
 }
+
+.home-content p{
+    font-size: var(--fs-h3);
+}
+
+.home-img img{
+    width: 20vw;
+    border-radius: 50%;
+    box-shadow: var(--bs);
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

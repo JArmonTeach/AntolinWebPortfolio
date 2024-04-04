@@ -127,6 +127,7 @@ span{
     width: 20vw;
     border-radius: 50%;
     box-shadow: var(--bs);
+    image-rendering: high-quality;
     animation: floatImage 4s ease-in-out infinite;
 }
 

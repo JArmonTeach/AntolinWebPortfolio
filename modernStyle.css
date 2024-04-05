@@ -33,6 +33,9 @@
 
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+
+    --ts-dark: 1px 2px 4px rgba(0, 0, 0, 0.55);
+    --ts-light: 1px 2px 4px rgba(217, 217, 217, 0.5);
 }
 
 html {
@@ -59,7 +62,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--clr-secondary-bg);
+    background: var(--clr-main);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +118,7 @@ section {
     margin-bottom: 2rem;
 }
 
-span{
+.home-content span{
     color: var(--clr-main);
 }
 
@@ -167,7 +170,7 @@ span{
 .resume-btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--clr-main);
+    background: var(--clr-secondary-bg);
     border-radius: 4rem;
     box-shadow: var(--bs);
     font-size: var(--fs-h3);
@@ -178,6 +181,67 @@ span{
 }
 
 .resume-btn:hover{
+    background: var(--clr-main);
+    color: var(--clr-accent);
+}
+
+
+/* ABOUT SECTION */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     background: var(--clr-secondary-bg);
-    color: var(--clr-accent)
+}
+
+.about-img img{
+    width: 35vw;
+    box-shadow: var(--bs);
+}
+
+.about span{
+    color: var(--clr-bg);
+}
+
+.about-heading{
+    text-align: center;
+    font-size: var(--fs-h1);
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+    text-shadow: var(--ts-dark);
+}
+
+.about-content h3{
+    font-size: var(--fs-h2);
+    color: var(--clr-bg);
+    text-shadow: var(--ts-light);
+}
+
+.about-content p{
+    font-size: var(--fs-body);
+    margin: 1.25rem 0 2rem;
+    line-height: 1.6;
+}
+
+.read-more-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--clr-bg);
+    border-radius: 4rem;
+    box-shadow: var(--bs);
+    font-size: var(--fs-h3);
+    color: var(--clr-text-light);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.read-more-btn:hover{
+    background: var(--clr-main);
+    color: var(--clr-bg);
 }

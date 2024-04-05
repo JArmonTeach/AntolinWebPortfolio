@@ -59,7 +59,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--clr-secondary-bg);
+    background: var(--clr-main);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,7 +167,7 @@ span{
 .resume-btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--clr-main);
+    background: var(--clr-secondary-bg);
     border-radius: 4rem;
     box-shadow: var(--bs);
     font-size: var(--fs-h3);
@@ -178,6 +178,23 @@ span{
 }
 
 .resume-btn:hover{
-    background: var(--clr-secondary-bg);
-    color: var(--clr-accent)
+    background: var(--clr-main);
+    color: var(--clr-accent);
 }
+
+
+/* ABOUT SECTION */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--clr-secondary-bg);
+}
+
+.about-img img{
+    width: 35vw;
+    box-shadow: var(--bs);
+}
+

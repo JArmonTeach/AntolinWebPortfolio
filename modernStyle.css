@@ -35,7 +35,7 @@
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 
     --ts-dark: 1px 2px 4px rgba(0, 0, 0, 0.55);
-    --ts-light: 2px 2px 1px rgba(217, 217, 217, 0.5);
+    --ts-light: 1px 2px 4px rgba(217, 217, 217, 0.5);
 }
 
 html {
@@ -219,6 +219,7 @@ section {
 .about-content h3{
     font-size: var(--fs-h2);
     color: var(--clr-bg);
+    text-shadow: var(--ts-light);
 }
 
 .about-content p{
@@ -242,5 +243,5 @@ section {
 
 .read-more-btn:hover{
     background: var(--clr-main);
-    color: var(--clr-accent);
+    color: var(--clr-bg);
 }

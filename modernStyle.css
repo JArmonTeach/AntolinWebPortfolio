@@ -33,6 +33,9 @@
 
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+
+    --ts-dark: 1px 2px 4px rgba(0, 0, 0, 0.55);
+    --ts-light: 2px 2px 1px rgba(217, 217, 217, 0.5);
 }
 
 html {
@@ -210,6 +213,7 @@ section {
 .about-content h2{
     text-align: left;
     line-height: 1.2;
+    text-shadow: var(--ts);
 }
 
 .about-content h3{
@@ -218,5 +222,23 @@ section {
 
 .about-content p{
     font-size: var(--fs-body);
-    margin: 2rem 0 3rem;
+    margin: 1.25rem 0 3rem;
+}
+
+.read-more-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--clr-bg);
+    border-radius: 4rem;
+    box-shadow: var(--bs);
+    font-size: var(--fs-h3);
+    color: var(--clr-text-light);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.read-more-btn:hover{
+    background: var(--clr-main);
+    color: var(--clr-accent);
 }

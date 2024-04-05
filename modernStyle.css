@@ -115,7 +115,7 @@ section {
     margin-bottom: 2rem;
 }
 
-span{
+.home-content span{
     color: var(--clr-main);
 }
 
@@ -198,3 +198,25 @@ span{
     box-shadow: var(--bs);
 }
 
+.about span{
+    color: var(--clr-bg);
+}
+
+.about-heading{
+    text-align: center;
+    font-size: var(--fs-h1);
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: var(--fs-h2);
+}
+
+.about-content p{
+    font-size: var(--fs-body);
+    margin: 2rem 0 3rem;
+}

@@ -245,3 +245,69 @@ section {
     background: var(--clr-main);
     color: var(--clr-bg);
 }
+
+
+/* SERVICES SECTION */
+
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--clr-secondary-bg);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--clr-bg);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: var(--clr-accent);
+    transform: scale(1.02);
+}
+
+.services-icon{
+    max-height: 3em;
+    max-width: 3em;
+    margin: 1em auto;
+    filter: brightness(0%);
+}
+
+.services-box h3{
+    font-size: var(--fs-h3);
+    text-shadow: var(--ts-dark);
+}
+
+.services-box p{
+    font-size: var(--fs-body);
+    margin: 1rem 0 3rem;
+    color: var(--clr-bg);
+}
+
+.service-btn{
+    display: inline-block;
+    padding: .5rem 1.4rem;
+    background: var(--clr-bg);
+    border-radius: 4rem;
+    box-shadow: var(--bs);
+    font-size: var(--fs-body);
+    color: var(--clr-text-light);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.service-btn:hover{
+    background: var(--clr-text-light);
+    color: var(--clr-bg);
+}

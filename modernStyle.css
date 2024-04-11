@@ -245,3 +245,10 @@ section {
     background: var(--clr-main);
     color: var(--clr-bg);
 }
+
+
+/* SERVICES SECTION */
+
+.services h2{
+    margin-bottom: 5rem;
+}

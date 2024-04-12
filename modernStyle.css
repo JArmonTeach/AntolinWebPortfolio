@@ -396,5 +396,5 @@ section {
 }
 
 .portfolio-layer a i:hover{
-    color: var(--clr-main);
+    color: var(--clr-secondary-bg);
 }

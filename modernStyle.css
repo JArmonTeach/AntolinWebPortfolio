@@ -311,3 +311,15 @@ section {
     background: var(--clr-text-light);
     color: var(--clr-bg);
 }
+
+
+/* SERVICES SECTION */
+
+.portfolio{
+    background: var(--clr-secondary-bg);
+}
+
+.portfolio-heading{
+    margin-bottom: 4rem;
+}
+

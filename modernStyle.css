@@ -405,3 +405,16 @@ section {
 .contact-heading{
     margin-bottom: 3rem;
 }
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

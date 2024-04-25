@@ -398,3 +398,10 @@ section {
 .portfolio-layer a i:hover{
     color: var(--clr-secondary-bg);
 }
+
+
+/* SERVICES SECTION */
+
+.contact-heading{
+    margin-bottom: 3rem;
+}

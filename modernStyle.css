@@ -398,3 +398,66 @@ section {
 .portfolio-layer a i:hover{
     color: var(--clr-secondary-bg);
 }
+
+
+/* SERVICES SECTION */
+
+.contact-heading{
+    margin-bottom: 3rem;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: var(--fs-body);
+    color: var(--clr-text-light);
+    background-color: var(--clr-secondary-bg);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact ::placeholder{
+    color: var(--clr-accent);
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact-btn{
+    margin-top: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    padding: .5rem 1.4rem;
+    background: var(--clr-secondary-bg);
+    border-radius: 4rem;
+    box-shadow: var(--bs);
+    font-size: var(--fs-body);
+    color: var(--clr-bg);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.contact-btn:hover{
+    background: var(--clr-main);
+    color: var(--clr-accent);
+}

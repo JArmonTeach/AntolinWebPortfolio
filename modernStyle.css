@@ -473,3 +473,8 @@ section {
     padding: 2rem 9%;
     background: var(--clr-secondary-bg);
 }
+
+.footer-text{
+    font-size: var(--fs-body);
+}
+

@@ -466,5 +466,10 @@ section {
 /* SERVICES SECTION */
 
 .footer{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--clr-secondary-bg);
 }

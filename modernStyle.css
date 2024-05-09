@@ -499,4 +499,102 @@ section {
 }
 
 
-/*40:53*/
+/*BREAKPOINT*/
+
+@media (max-width: 1200px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width: 991px){
+    .header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3%;
+    }
+
+    .services{
+        padding: 7rem;
+    }
+
+    .portfolio{
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width: 768px){
+    #menu-icon{
+        display: block;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home-content{
+        order: 2
+    }
+
+    .home-img img{
+        width: 75vw;
+        margin-top: 4rem;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about-img img{
+        width: 75vw;
+        margin-top: 4rem;
+    }
+
+    .service-heading{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-heading{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .portfolio-container{
+        grid-template-columns: 1fr;
+    }
+
+    .home-img img{
+        width: 65vw;
+        margin-top: 8rem;
+    }
+
+    .about-img img{
+        width: 65vw;
+        margin-top: 4rem;
+    }
+}
+
+@media(max-width: 450px){
+    html{
+        font-size: 45%;
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+}

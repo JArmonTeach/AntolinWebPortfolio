@@ -499,4 +499,15 @@ section {
 }
 
 
-/*40:53*/
+/*BREAKPOINT*/
+
+@media (max-width: 1200px){
+    :root{
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+

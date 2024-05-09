@@ -502,12 +502,73 @@ section {
 /*BREAKPOINT*/
 
 @media (max-width: 1200px){
-    :root{
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+    html{
+        font-size: 50%;
     }
 }
 
+@media(max-width: 991px){
+    .header{
+        padding: 2rem 3%;
+    }
 
+    section{
+        padding: 10rem 3%;
+    }
+
+    .services{
+        padding: 7rem;
+    }
+
+    .portfolio{
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width: 768px){
+    #menu-icon{
+        display: block;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home-content{
+        order: 2
+    }
+
+    .home-img img{
+        width: 75vw;
+        margin-top: 4rem;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about-img img{
+        width: 75vw;
+        margin-top: 4rem;
+    }
+
+    .service-heading{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-heading{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
